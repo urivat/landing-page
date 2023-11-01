@@ -6,10 +6,13 @@ body {
     flex-direction: column;
     
 }
-.header {
+.header, footer {
     background-color: #1f2937;
     color: white;
     
+}
+li {
+    font-size: 18px;
 }
 .signup{
     border: 1px solid #1f2937 ;
@@ -23,23 +26,58 @@ body {
     align-items: center;
     max-width: 150px;
 }
+.hero-content,
+.head-text {
+    margin: 25px 50px 50px 150px;
+}
 .hero-content {
     display: flex;
     justify-content: space-between;
     padding: 5px 30px ;
+    margin-top: 10px;
+    
+}
+.head-text p {
+    font-size: 18px;
+}
+.head-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.head-text h1, p {
+    margin: 0;
     
 }
 .head-text {
     display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    padding: 0 0 0 30px;
+    margin-top: 50px;
+    
+}
+.main-text {
+    display: flex;
+    /* width: 30%; */
+    
+    flex-wrap: wrap;
     flex-direction: column;
+    flex: 0 1 42%;
+    
+}
+.head-img img {
+    width: 550px;
+    height: 200px;
+    margin-left: 50px;
+    flex: 0 1 auto;
 }
 .logo {
-    font-size: 20px;
+    font-size: 24px;
 }
 .links {
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 18px;
 }
 li {
     
