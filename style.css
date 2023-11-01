@@ -13,6 +13,10 @@ body {
 }
 footer {
     height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
 .header {
     height: 500px;
@@ -123,7 +127,8 @@ li {
 .sign {
     border: 1px solid white;
     background-color: #3882f6;
-    width: 70%;
+    width: 75%;
+    height: 50%;
     border-radius: 15px;
     padding: 15px 30px;
     display: flex;
@@ -142,11 +147,14 @@ li {
     height: 34px;
     display: flex;
     justify-content: center;
-    align-items: center;    /* flex: 1; */
+    align-items: center; 
+    margin-left: 150px;   /* flex: 1; */
 }
 .sign-text {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-
-
+}
+.sign-text h1 {
+    margin: 0;
 }
